@@ -1,0 +1,68 @@
+body {
+  background-image: url('https://www.expressandstar.com/resizer/P44xgn-hAtLXXfPgp4fRxamxV9M=/1200x0/cloudfront-us-east-1.images.arcpublishing.com/mna/CLJ36WHIYFEN3OUQ7YBLXFIDXQ.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-size: 2.5rem;
+  margin: 5rem 0 4rem 0;
+}
+
+.buttons-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.buttons-group button {
+  height: 4em;
+  width: 8em;
+  font-size: 1.7em;
+  margin: 0.5em;
+  background-color: #ff7272;
+  border-radius: 0.4em;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons-group button:hover {
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+  transform: scale(0.9);
+}
+
+.text-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-size: 2rem;
+  padding-top: 2em;
+}
+
+.win {
+  color: green;
+  font-size: 2rem;
+}
+
+.lose {
+  color: red;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .buttons-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}
